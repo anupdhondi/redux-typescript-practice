@@ -1,0 +1,10 @@
+1. In repositoriesReducer.ts understand "Action" param types
+2. How typing system narrows down "action" in switch statement and outside of it.(hover on action and check on actions)
+3. Learn about all interfaces in actions folder -> index.ts
+4. Learn about Enum in action-types folder -> index.ts
+5. Exporting everything related to redux in reducers -> index.ts. From only there importing in components
+
+From video 21
+6. react-redux does not type of data in redux store
+7. (watch 21st video ) -> export type RootState = ReturnType<typeof reducers>; -> return  the "return type" of fuction(in our case reducers) and assign to RootState
+8. (watch 22nd video) -> hooks -> useTypedSelector.ts and use useTypedSelector() in RespositoryList.tsx
